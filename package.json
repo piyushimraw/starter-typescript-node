@@ -32,11 +32,9 @@
     "tslint": "^5.12.1",
     "typescript": "^3.2.2"
   },
-  {
-    "husky": {
-      "hooks": {
-        "pre-commit": "npm run lint"
-       }
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
     }
   }
 }
